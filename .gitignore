@@ -41,3 +41,15 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Ignore generated files related to chat_model
+models/chat_model/*.g.dart
+models/chat_model/*.freezed.dart
+
+# Ignore generated files related to chat_model
+models/chat_model/*.g.dart
+models/chat_model/*.freezed.dart
+
+# Ignore generated files related to message_model
+models/message_model/*.g.dart
+models/message_model/*.freezed.dart
